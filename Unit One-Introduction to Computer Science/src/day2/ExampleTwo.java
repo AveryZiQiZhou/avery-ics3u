@@ -1,12 +1,18 @@
 package day2;
 
-/**
- * ExampleTwo
+/*
+ * This example is about escape sequences
+ * Test Git
  */
 public class ExampleTwo {
+   public static void main(String[] args) {
+      System.out.println("Computer Scie\nce is the \"BEST\" class ever!");
+      System.out.println("/\\\"");
 
-    public static void main(String[] args) {
-    
-
-    }
+      // escape sequence is meant to give another meaning to a character
+      // AP Exam cares abot \\ \" and \n
+      // \n is new line
+      // \" displays a quote
+      // \\ displays a backslash
+   }
 }
